@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./picture/YouTube.ico" type="image/x-icon" />
+    <!-- css歸零 -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="./css/all.css" />
+    <!-- 自訂樣式表 -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>YouTube</title>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="menu">
+        <ul>
+          <!-- sidebar開關 -->
+          <li>
+            <label for="sbSwitch">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="sbSwitch" />
+          </li>
+          <!-- YT LOGO -->
+          <li>
+            <a href="">
+              <img src="./picture/YouTube＿LOGO.png" />
+            </a>
+          </li>
+          <!-- 搜尋欄及語音搜尋 -->
+          <li>
+            <p>
+              <i id="search" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </p>
+            <input type="search" placeholder="搜尋" />
+            <a href=""
+              ><i id="search" class="fa-sharp fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="">
+              <i class="fa-solid fa-microphone"></i>
+            </a>
+          </li>
+          <!-- 右側登入按鈕 -->
+          <li>
+            <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            <a href=""> <i class="fa-regular fa-circle-user"></i>登入 </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu2">
+        <ul>
+          <li><a href="">全部</a></li>
+          <li><a href="">遊戲</a></li>
+          <li><a href="">音樂</a></li>
+          <li><a href="">直播中</a></li>
+          <li><a href="">動畫</a></li>
+          <li><a href="">旅遊勝地</a></li>
+          <li><a href="">烹飪</a></li>
+          <li><a href="">自然</a></li>
+          <li><a href="">最新上傳</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- 側邊欄開始 -->
+    <div id="sidebar">
+      <!-- 側邊欄第一列 -->
+      <nav class="menu3">
+        <ul>
+          <li>
+            <a href=""><i class="fa-solid fa-house"></i>　　首頁</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-compass"></i>　　探索</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-film"></i>　　Shorts</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-clapperboard"></i>　　訂閱內容</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- 側邊第二列 -->
+      <nav class="menu4">
+        <ul>
+          <li>
+            <a href=""><i class="fa-solid fa-photo-film"></i>　　媒體庫</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-clock"></i>　　觀看紀錄</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- 側邊第三列 -->
+      <nav class="menu5">
+        <p>登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</p>
+        <a href=""><i class="fa-regular fa-circle-user"></i>登入</a>
+      </nav>
+      <!-- 側邊第四列 -->
+      <nav class="menu6">
+        <h2>探索</h2>
+        <ul>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/探索/音樂.jpg" alt="" />　　音樂</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/探索/體育.jpg" alt="" />　　體育</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/探索/遊戲.jpg" alt="" />　　遊戲</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/探索/電影.jpg" alt="" />　　電影</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/探索/新聞.jpg" alt="" />　　新聞</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/探索/直播.jpg" alt="" />　　直播</a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./picture/側邊攔/探索/360度影片.jpg"
+                alt=""
+              />　　360度影片</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- 側邊第五列 -->
+      <nav class="menu7">
+        <div>
+          <a href=""><i class="fa-solid fa-circle-plus"></i>　　瀏覽頻道</a>
+        </div>
+      </nav>
+      <!-- 側邊第六列 -->
+      <nav class="menu8">
+        <h2>更多YOUTUBE功能</h2>
+        <ul>
+          <li>
+            <a href="">
+              <img
+                src="./picture/側邊攔/更多youtube功能/YouTube Premium.png"
+                alt=""
+            /></a>
+          </li>
+          <li></li>
+          <li>
+            <a href="">
+              <img
+                src="./picture/側邊攔/更多youtube功能/YouTube Music.png"
+                alt=""
+            /></a>
+          </li>
+          <li></li>
+          <li>
+            <a href="">
+              <img
+                src="./picture/側邊攔/更多youtube功能/YouTube Kids.png"
+                alt=""
+            /></a>
+          </li>
+          <li></li>
+          <li>
+            <a href="">
+              <img src="./picture/側邊攔/更多youtube功能/YouTube TV.png" alt=""
+            /></a>
+          </li>
+          <li></li>
+        </ul>
+      </nav>
+      <!-- 側邊第七列 -->
+      <nav class="menu9">
+        <ul>
+          <li>
+            <a href=""><i class="fa-solid fa-gear"></i>　　設定</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-flag"></i>　　檢舉紀錄</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-circle-question"></i>　　說明</a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-solid fa-circle-exclamation"></i>　　提供意見</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- 側邊欄底部 -->
+      <div class="footer">
+        <div>
+          <a href="">簡介</a>
+          <a href="">媒體</a>
+          <a href="">版權</a>
+          <a href="">與我們聯絡</a>
+          <br />
+          <a href="">創作者</a>
+          <a href="">廣告</a>
+          <a href="">開發人員</a>
+        </div>
+        <div>
+          <a href="">條款</a>
+          <a href="">隱私權</a>
+          <a href="">政策安全性</a>
+          <br />
+          <a href="">YouTube運作方式</a>
+          <a href="">測試新功能</a>
+        </div>
+        <p>&copy; 2022 Google LLC</p>
+      </div>
+    </div>
+    <div id="content">
+      <div class="adBanner">
+        <img
+          src="./picture/YouTube Premium Banner/YouTube Premium.png"
+          alt=""
+        />
+        <p>盡情觀看所有喜愛影片，零廣告</p>
+        <a href="">立即訂閱</a>
+      </div>
+      <div class="contMain">
+        <div class="row">
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/001.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/中天電視_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >【中天直播#LIVE】論文抄襲還沒完! 余正煌正式提告林智堅...</a
+            >
+            <a href="" class="videoChannel">中天電視</a>
+            <a href="" class="videoInfo"
+              >觀看次數：9638次・
+              <br />
+              直播時間：18分鐘前</a
+            >
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/002.webp" alt="" />
+            </a>
+            <a href="">
+              <img
+                src="./picture/頻道LOGO/KKBOX MUSIC流行歌曲大全_LOGO.jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="videoTitle">
+              90後不能沒有聽過的廣東歌 #1【高音質 可自選歌曲】懷舊廣...
+            </a>
+            <a href="" class="videoChannel">KKBOX MUSIC流行歌曲大全</a>
+            <a href="" class="videoInfo">觀看次數：97萬次・18分鐘前</a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/003.webp" alt="" />
+            </a>
+            <a href="">
+              <img
+                src="./picture/頻道LOGO/老高與小茉 Mr & Mrs Gao_LOGO.jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="videoTitle"
+              >千萬不要吃這些食物，吃了毀一生 | 老高與小茉 Mr & Mrs Gao...
+            </a>
+            <a href="" class="videoChannel">老高與小茉 Mr & Mrs Gao</a>
+            <a href="" class="videoInfo">觀看次數：163萬次・18小時前</a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/004.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/Hema房屋管家_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >【驗屋大小事】冷氣沒排水管?｜窗框漏水?｜馬桶蓋裝錯!｜...
+            </a>
+            <a href="" class="videoChannel">Hema房屋管家</a>
+            <a href="" class="videoInfo">觀看次數：253次・19小時前</a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/005.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/Douyin Song_LOGO.jpg" alt="" />
+            </a>
+
+            <a href="" class="videoTitle"
+              >3小時50首特選最佳抒情歌 %(艾辰《错位时空》 白月光與...
+            </a>
+
+            <a href="" class="videoChannel">Douyin Song</a>
+
+            <a href="" class="videoInfo">617人在觀看 </a>
+
+            <a href=""><img src="./picture/直播.png" alt="" /> </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/006.webp" alt="" />
+            </a>
+            <a href="">
+              <img
+                src="./picture/頻道LOGO/KKBOX MUSIC流行歌曲大全_LOGO.jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="videoTitle"
+              >#KKBOX華語單曲排行週榜|愛就一個字，最偉大的作品，...
+            </a>
+            <a href="" class="videoChannel">KKBOX-欢迎订阅 2</a>
+            <a href="" class="videoInfo"
+              >觀看次數：16萬次・ <br />
+              直播時間：1個月前</a
+            >
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/007.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/超粒方_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle">
+              休傑克曼金鋼狼回歸死侍3 手牽手加入漫威宇宙!! 萊恩雷諾斯...
+            </a>
+            <a href="" class="videoChannel"> 超粒方 </a>
+            <a href="" class="videoInfo"> 觀看次數：5.8萬次・3小時前 </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/008.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/XUN MUSIC_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >小阿七 - 从前说『后来我身边有他，身后有家但我只想问你一句 你
+              愛過嗎...
+            </a>
+            <a href="" class="videoChannel">XUN MUSIC</a>
+            <a href="" class="videoInfo">觀看次數：86萬次・8個月前</a>
+          </div>
+        </div>
+        <hr />
+        <!-- Shorts -->
+        <div class="shorts">
+          <img id="shortsLogo" src="./picture/shorts/shorts.png" />
+          <div class="shortsRow">
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/001.webp" />
+                <p class="shortsTitle">
+                  Proof That My Dog Has The Purest Heart 🥺
+                </p>
+                <p class="shortsInfo">觀看次數：4171萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/002.webp" />
+                <p class="shortsTitle">
+                  소녀시대 유리가 드라이기를 사용하는
+                  방법
+                </p>
+                <p class="shortsInfo">觀看次數：655萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/003.webp" />
+                <p class="shortsTitle">Diana 🥺</p>
+                <p class="shortsInfo">觀看次數：597萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/004.webp" />
+                <p class="shortsTitle">
+                  made her a vacay dress 🥰💚 #fashion #diy
+                </p>
+                <p class="shortsInfo">觀看次數：1010萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/005.webp" />
+                <p class="shortsTitle">
+                  【麻蛋和丑丑】小母猫太可怜了，身边都是基猫，还要被绝育
+                </p>
+                <p class="shortsInfo">觀看次數：286萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/006.webp" />
+                <p class="shortsTitle">【Dreams come true 💫</p>
+                <p class="shortsInfo">觀看次數：1826萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/007.webp" />
+                <p class="shortsTitle">Taking it Slow 😂…</p>
+                <p class="shortsInfo">觀看次數：6598萬次</p>
+              </a>
+            </div>
+            <div class="shortsCol">
+              <a href="">
+                <img src="./picture/shorts/008.webp" />
+                <p class="shortsTitle">
+                  [EN SUB] 20220612
+                  朱一龍被楊恩又的表情嚇出雞皮疙瘩《人生大事》花絮 Zhu Yilong
+                  Yang Enyou Lighing Up the Stars BTS
+                </p>
+                <p class="shortsInfo">觀看次數：234萬次</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- Short下方的影片 -->
+        <div class="row">
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/009.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/新聞大白話_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >【前鏡電視董座稱裴偉爆蔡英文旨意錄音真的！周玉蔻哭訴被剪陳時中污髒男女片！鄭文燦12億案漏水得工程卓越獎！</a
+            >
+            <a href="" class="videoChannel">新聞大白話</a>
+            <a href="" class="videoInfo">4997人正在觀看 </a>
+            <a>
+              <img src="./picture/直播.png" alt="" />
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/010.webp" alt="" />
+            </a>
+            <a href="">
+              <img
+                src="./picture/頻道LOGO/Taiwan Popular Songs_LOGO.jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="videoTitle">
+              國語90年代金曲 - 90年代经典老歌尽在-经典老歌500首网 -
+              一人一首成名曲 - 林志炫, 陳昇, 張宇, 彭佳慧, 伍佰, 李宗盛, 張宇,
+              任賢齊, 周華健, 辛曉琪
+            </a>
+            <a href="" class="videoChannel">Taiwan Popular Songs</a>
+            <a href="" class="videoInfo">28人正在觀看 </a>
+            <a>
+              <img src="./picture/直播.png" alt="" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/011.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/Love Yourself_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >輕柔的音樂，鎮靜神經，愉悅心靈——治愈心臟和血管的音樂
+            </a>
+            <a href="" class="videoChannel">Love Yourself</a>
+            <a href="" class="videoInfo"
+              >觀看次數：108萬次・直播時間：2個月前</a
+            >
+          </div>
+          <div class="col">
+            <a href=""> <img src="./picture/影片縮圖/012.webp" alt="" /></a>
+            <a href="">
+              <img src="./picture/頻道LOGO/Deep Mood_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >[Playlist] OST만 들으면서 일해도 하루는
+              순삭이지!! 🥠🥠2,30대를 위한 추억의 드라마
+              OST모음</a
+            >
+            <a href="" class="videoChannel">Deep Mood</a>
+            <a href="" class="videoInfo">1167人正在觀看 </a>
+            <a>
+              <img src="./picture/直播.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <hr />
+        <!-- 發燒影片 -->
+        <div class="row">
+          <p id="hotVideos">發燒影片</p>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/013.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/黃阿瑪的後宮生活_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >【黃阿瑪的後宮生活】招弟出現異常抖動！緊急送醫！</a
+            >
+            <a href="" class="videoChannel">黃阿瑪的後宮生活</a>
+            <a href="" class="videoInfo">觀看次數：55萬次・5天前</a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/014.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/大新聞大報卦_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle">
+              【大新聞大爆卦】獨!周玉蔻被逼神隱蔡英文下令全黨切割郭正亮斷言她1010難復出搗亂!委屈挺阿中變男女髒污片演到一半卻流放邊疆!陳時中負心漢再補刀說討厭蔻也可投我!
+            </a>
+            <a href="" class="videoChannel">大新聞大爆卦</a>
+            <a href="" class="videoInfo"
+              >觀看次數：16萬次・直播時間：23小時前</a
+            >
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/015.webp" alt="" />
+            </a>
+            <a href="">
+              <img
+                src="./picture/頻道LOGO/스브스케이팝 X INKIGAYO_LOGO.jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="videoTitle"
+              >BLACKPINK(블랙핑크) - Shut Down @인기가요 inkigayo
+              20220925
+            </a>
+            <a href="" class="videoChannel"
+              >스브스케이팝 X INKIGAYO_LOGO</a
+            >
+            <a href="" class="videoInfo">觀看次數：717萬次・3天前</a>
+          </div>
+          <div class="col">
+            <a href="">
+              <img src="./picture/影片縮圖/016.webp" alt="" />
+            </a>
+            <a href="">
+              <img src="./picture/頻道LOGO/頭條開講_LOGO.jpg" alt="" />
+            </a>
+            <a href="" class="videoTitle"
+              >【頭條開講】歐洲人憤怒了北溪1.2號誰炸的波蘭說謝謝美國美國福特變中國福特美電動車大叛逃微侵略來了彭博印證了川普第三次世界大戰在台海說
+              20220928完整版@頭條開講
+            </a>
+            <a href="" class="videoChannel">頭條開講</a>
+            <a href="" class="videoInfo"
+              >觀看次數：24萬次・直播時間：17小時前</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>
